@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/modern-normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/modern-normalize.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Web Studio</title>
 </head>
 <body>    
     
     <!--Шапка сайта-->
 
-    <header class="page-header">
-        <div class="head container">
-            <nav class="head-nav"> 
+    <header class="header">
+        <div class="header__container container">
+            <nav class="site-nav"> 
                 <a href="./index.html" class="logo">
-                    <span class="logo-1" lang="en">Web</span><span class="logo-2" lang="en">Studio</span>
+                    <span class="header__logo" lang="en">Web</span><span class="logo-2" lang="en">Studio</span>
                 </a>
-                <ul class="site-nav list">
-                    <li class="site-nav-item"><a class="link link-head page" href="">Студия</a></li>
-                    <li class="site-nav-item"><a class="link link-head" href="portfolio.html">Портфолио</a></li>
-                    <li class="site-nav-item"><a class="link link-head" href="">Контакты</a></li>
+                <ul class="site-nav__list">
+                    <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="">Студия</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="portfolio.html">Портфолио</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="">Контакты</a></li>
                 </ul>  
             </nav>
-            <div class="contacts-head">
-                <a class="link contact-header" href="mailto:info@devstudio.com">
-                    <svg class="head-svg mail">
+            <div class="header__contacts">
+                <a class="header__link" href="mailto:info@devstudio.com">
+                    <svg class="header__svg header__svg--mail">
                         <use href="./images/icons.svg#icon-mail-to-svg"></use>
                     </svg>
                     info@devstudio.com
                 </a>
-                <a class="link contact-header" href="tel:+380961111111">                    
-                    <svg class="head-svg tel">
+                <a class="header__link" href="tel:+380961111111">                    
+                    <svg class="header__svg header__svg--tel">
                         <use href="./images/icons.svg#icon-phone-to-svg"></use>
                     </svg>
                     +38 096 111 11 11</a>
