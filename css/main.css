@@ -572,7 +572,6 @@ ul {
 }
 
 .modal__label {
-  position: relative;
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -610,10 +609,17 @@ ul {
   border: 1px solid #2196f3;
 }
 
+.modal__input-cont {
+  position: relative;
+  display: block;
+}
+
 .modal__svg-cont {
   position: absolute;
-  top: 29px;
+  top: 50%;
   left: 12px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .modal__svg {

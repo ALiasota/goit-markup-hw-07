@@ -48,7 +48,6 @@
 }
 
 .modal__label {
-  position: relative;
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -80,10 +79,16 @@
   }
 }
 
+.modal__input-cont {
+  position: relative;
+  display: block;
+}
+
 .modal__svg-cont {
   position: absolute;
-  top: 29px;
+  top: 50%;
   left: 12px;
+  transform: translateY(-50%);
 }
 
 .modal__svg {
