@@ -173,6 +173,10 @@
   left: 13px;
   top: 0;
   padding-left: 26px;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .modal__checkbox--hidden {

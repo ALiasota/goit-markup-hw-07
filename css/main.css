@@ -738,6 +738,9 @@ ul {
   top: 0;
   padding-left: 26px;
 }
+.modal__checkbox:hover {
+  cursor: pointer;
+}
 
 .modal__checkbox--hidden {
   /* -webkit-appearance: none;
