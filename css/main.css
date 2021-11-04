@@ -553,6 +553,10 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.is-hidden .modal__window {
+  -webkit-transform: rotate(0.5turn);
+          transform: rotate(0.5turn);
+}
 
 .modal__head {
   margin-bottom: 12px;
