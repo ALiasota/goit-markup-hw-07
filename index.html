@@ -440,7 +440,17 @@
                                 <use href="./images/icons.svg#icon-name-svg"></use>
                             </svg>
                         </span>
-                        <input type="text" class="modal__inp modal-border" name="user-name" placeholder=" " autofocus>
+                        <input 
+                        type="text" 
+                        class="modal__inp modal-border" 
+                        name="user-name"
+                        minlength="2"
+                        pattern="[a-zA-Zа-яёА-ЯЁ]+"
+                        title="Имя должно содержать символы кириллицы или латиницы"
+                        required 
+                        placeholder=" " 
+                        autofocus                        
+                        >
                     </span>
                     
                 </label>    
@@ -452,7 +462,12 @@
                                 <use href="./images/icons.svg#icon-tel-svg"></use>
                             </svg>
                         </span>
-                        <input type="tel" class="modal__inp modal-border" name="tel" placeholder=" ">
+                        <input 
+                        type="tel" 
+                        class="modal__inp modal-border" name="tel"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                        title="099-000-00-00"                        
+                        placeholder=" ">
                     </span>
                     
                 </label>
