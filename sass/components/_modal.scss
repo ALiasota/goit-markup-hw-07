@@ -222,6 +222,10 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .modal__checkbox--hidden:focus + & {
+    border-color: #2196f3;
+  }
 }
 
 .modal__link {

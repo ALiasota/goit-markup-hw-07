@@ -789,6 +789,9 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
 }
+.modal__checkbox--hidden:focus + .modal__checkbox-icon {
+  border-color: #2196f3;
+}
 
 .modal__link {
   -webkit-text-decoration-line: underline;
